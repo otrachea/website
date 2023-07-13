@@ -4,7 +4,7 @@ export default function Contact() {
             <div className="mt-[17vh] flex h-[50vh] w-[85%] flex-col justify-between text-center">
                 <div>
                     <h1>Contact</h1>
-                </div>
+                </div>  
                 <div>
                     <h1 className="text-base leading-loose sm:text-2xl">
                         Please feel free to contact me via email at
