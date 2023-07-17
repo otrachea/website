@@ -29,8 +29,38 @@
     bottom: 0;
     height: 100vh;
     background-repeat: repeat-x;
+    left: 0;
+    right: 0;
+
+    &.clouds {
+        background-size: 40%;
+        background-image: url("../assets/clouds-top.png");
+        opacity: 0.8;
+        
+        &.dark {
+            opacity: 0.5;
+        }
+    }
+
+    &.back {
+        background-size: auto 200px;
+        background-image: url("../assets/tree-back.png");
+        background-position: bottom 200px left 0;
+    }
+
+    &.middle {
+        background-position: bottom 95px left 0;
+        background-size: auto 250px;
+        background-image: url("../assets/tree-middle.png");
+    }
+
+    &.close {
+        background-position: bottom left 0;
+        background-size: auto 300px;
+        background-image: url("../assets/tree-front.png");
+    }
 
     &.dark {
-        border: 2px solid orange;
+        filter: brightness(0.5);
     }
 }
